@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+background-image: url(./fon.jpg);
+}
+
+html, input, button{
+	font-family: 'Roboto', sans-serif;
+
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color: #465666;
+	padding-top: 10px;
+}
+.list_button button{
+    border: none;
+    cursor: pointer;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #465666;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-right: 30px;
+}
+.list_button button:hover{
+    background-color: #28313a;
+}
+.content_block{
+	width: 100%;
+}
+.user_name{
+	margin: 0;
+	padding-top: 20px;
+	color: #ffffff;
+	font-size: 36px;
+}
+.user_status{
+	margin: 0;
+	color: #ffffff;
+	font-size: 12px;
+}
+.user_nav{
+	margin-top: 5px;
+}
+.user_nav button{
+	border: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #151a1e;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.user_nav button:hover{
+	background-color: #1d2933;
+}
+.blog_list{
+	width: 90%;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.post_input button:hover{
+	background-color: #1d2933;
+}
+.post_enter{
+	border: none;
+	width: 100%;
+	height: 40px;
+    padding-left: 10px;
+	background-color: #151a1e;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.array_notes{
+    width: 100%;
+    margin-top: 20px;
+}
+.post_text{
+    margin: 0;
+    padding-top: 10px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.left_form{
+	float: left;
+}
+.post{
+    width: 100%;
+    min-height: 150px;
+    background-color: #232c33;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: center;
+    margin-top: 10px;
+}
+.post_input{
+    width: 100%;
+    height: 70px;
+}
+.post_input button{
+  border: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #151a1e;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+.public_post{
+    width: 100%;
+    min-height: 50px;
+    background-color: #232c33;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family:Arial, Verdana, sans-serif;
+}
+.delete_post{
+    width: 80%;
+    min-height: 80px;
+    background-color: #232c33;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: center;
+    margin-top: 10px;
+}
+.delete_post button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #151a1e;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+.delete_post button:hover{
+    background-color: #1d2933;
+}
+.avatar{
+  float: left;
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 100px;
+  margin-right: 20px;
+  background-color: #ffffff;
+}
+.logo-text{
+  float: left;
+  margin: 0;
+  margin-top: 5px;
+  color: #ffffff;
+  margin-left: 40px;
+  font-family:Arial, Verdana, sans-serif;
+  font-size: 160%;
+}
+.block_profile{
+    width: 80%;
+    height: 200px;
+    background-color: #28313a;
+    margin-top: 10px;
+    border-radius: 10px;
+    float: center;
+}
+.post_name{
+  width: 250px;
+  height: 20px;
+  background-color: #151a1e;
+  border-radius: 5px;
+  border:  none;
+  margin-bottom: 10px;
+  color:  #ffffff;
+}
+.margin{
+    margin-top: 20px;
+}
+.post_name_del{
+  width: 250px;
+  height: 20px;
+  background-color: #151a1e;
+  border-radius: 5px;
+  border:  none;
+  margin-top: 10px;
+  color:  #ffffff;
+}
+.status p{
+    color: #ffffff;
+    font-size: 120%;
+    font-family: Arial, Verdana, sans-serif;
+}
+.status{
+    width: 1500px;
+    height: auto;
+}
+.public_post img{
+    width: auto;
+    height: auto;
+}

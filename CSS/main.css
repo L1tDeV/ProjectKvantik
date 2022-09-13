@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+background-image: url(./fon.jpg);
+}
+
+html, input, button{
+	font-family: 'Roboto', sans-serif;
+
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color: #465666;
+	padding-top: 10px;
+}
+.nav_button{
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-right: 30px;
+    background-color: #3f6284;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.nav_button:hover{
+	background-color: #1b2228;
+}
+.signin_form input{
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #2e3944;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.logo-text{
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+    color: #ffffff;
+    margin-left: 40px;
+    font-family:Arial, Verdana, sans-serif;
+    font-size: 160%;
+}
+.signup_form{
+	width: 40%;
+}
+.signup_form input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin-bottom:10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #282e35;
+    color: #ffffff;
+}
+.signup_button{
+	border: none;
+	cursor: pointer;
+	width: 70%;
+	height: 40px;
+	color: #ffffff;
+	border-radius: 10px;
+	background-color: #282e35;
+	transition: 0.3s;
+}
+.signup_button:hover{
+	background-color: #1b2228;
+	width: 75%;
+}
+.avatar{
+  float: left;
+  width: 220px;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 200px;
+  border: 3px solid blue;
+  box-shadow: 0 0 7px #111;
+  background-color: #ffffff;
+}
+.avatar:hover{
+  float: left;
+  width: 220px;
+  height: 220px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 200px;
+  border: 3px solid blue;
+  box-shadow: 0 0 7px #111;
+  background-color: #ffffff;
+}
+
+.transition{
+  transition: 2s;
+}
+.line{
+    display: inline-block;
+    margin-left: 245px;
+    margin-right: auto;
+}
+h1{
+  font-family:Arial, Verdana, sans-serif;
+  font-size: 250%;
+}
+h2{
+  font-family:Arial, Verdana, sans-serif;
+  font-size: 180%;
+}
+button{
+  font-family:Arial, Verdana, sans-serif;
+}
+.block{
+    width: 300px;
+    height: 350px;
+    background-color: #465666;
+    border-radius: 20px;
+    text-align: center;
+}
+.block:hover{
+    width: 300px;
+    height: 350px;
+    background-color: #4682B4;
+    border-radius: 20px;
+    text-align: center;
+}
+.text_in_block{
+    text-align: center;
+    color: #000000;
+}
+.nav_button{
+    border: none;
+    cursor: pointer;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #465666;
+    color: #ffffff;
+    transition: 0.3s;
+    margin-right: 30px;
+    border-radius: 0px;
+    margin-top: 0px;
+}
+.nav_button: hover{
+    background-color: #28313a;
+}

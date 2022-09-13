@@ -1,0 +1,10 @@
+# Запускаем движок замены
+RewriteEngine on
+# Если запрашиваемый объект не папка
+RewriteCond %{REQUEST_FILENAME} !-d
+# Если запрашиваемый объект с дописанным расширением php - файл
+RewriteCond %{REQUEST_FILENAME}\.php -f
+# Делаем замену с дописыванием .php
+RewriteRule ^(.*)$ $1.php
+
+addDefaultCharset utf-8
